@@ -77,7 +77,7 @@ Data penyakit dalam sistem tetap terpelihara dan dapat digunakan untuk mendukung
 Memastikan informasi gejala yang digunakan dalam proses konsultasi tetap tersedia dan akurat. 
 
 **Actors**  
-Administrator  
+Administrator.
 
 **Preconditions**  
 Administrator telah berhasil melakukan login ke sistem. 
