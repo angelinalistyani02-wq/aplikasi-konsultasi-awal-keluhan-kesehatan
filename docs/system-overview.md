@@ -1,7 +1,7 @@
 # System Overview
 
 ## Purpose 
-Sistem membantu melakukan konsultasi awal kondisi kesehatan berdasarkan gejala yang dipilih oleh  pengguna. Gejala yang dipilih akan diproses untuk menghasilkan informasi awal mengenai kemungkinan kondisi kesehatan pengguna sebelum memutuskan konsultasi lebih lanjut dengan layanan kesehatan.
+Sistem membantu melakukan konsultasi awal kondisi kesehatan berdasarkan gejala yang dipilih oleh pengguna. Gejala yang dipilih akan diproses untuk menghasilkan informasi awal mengenai kemungkinan kondisi kesehatan pengguna sebelum memutuskan konsultasi lebih lanjut dengan layanan kesehatan.
 
 ## User Roles 
 **User**  
@@ -25,7 +25,7 @@ Responsibilities :
 - Menerima gejala yang dipilih pengguna.
 - Memproses gejala berdasarkan basis pengetahuan pakar.
 - Menyediakan informasi awal mengenai kemungkinan kondisi kesehatan.
-- Menyediakan informaasi umum penyakit.
+- Menyediakan informasi umum penyakit.
 - Mengelola data gejala, data penyakit, dan data relasi diagnosis.
 
 ### Out Scope
