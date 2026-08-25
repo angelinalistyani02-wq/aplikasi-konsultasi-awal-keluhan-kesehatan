@@ -3,7 +3,7 @@
 ## Document Purpose  
 Dokumen ini bertujuan menjelaskan logika pemrosesan data yang dilakukan sistem untuk menghasilkan informasi. 
 
-## Processing Logic Oveerview  
+## Processing Logic Overview  
 Logika pemrosesan sistem dibangun melalui hubungan logis antar data. Data Gejala dihubungkan dengan Data Relasi Diagnosis yang berperan sebagai Basis Pengetahuan untuk menghasilkan diagnosis. Sementara itu, Data Penyakit digunakan untuk menyediakan informasi detail berdasarkan penyakit yang dipilih pengguna.  
 
 ## Logika Pemrosesan Konsultasi Awal  
