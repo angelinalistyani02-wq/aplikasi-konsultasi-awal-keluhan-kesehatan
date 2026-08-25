@@ -67,7 +67,7 @@ Administrator telah berhasil login ke sistem.
 2. Sistem menampilkan data penyakit yang tersedia.
 3. Administrator melakukan pemeliharaan data penyakit sesuai kebutuhan.
 4. Sistem menyimpan perubahan data penyakit.
-5. Sistem menampilkan data penyakit yang telah diperbaruhi.
+5. Sistem menampilkan data penyakit yang telah diperbarui.
 
 **Expected Outcome**  
 Data penyakit dalam sistem tetap terpelihara dan dapat digunakan untuk mendukung penyampaian informasi kepada pengguna.
