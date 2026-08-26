@@ -26,7 +26,7 @@ Responsibilities :
 - Memproses gejala berdasarkan basis pengetahuan pakar.
 - Menyediakan informasi awal mengenai kemungkinan kondisi kesehatan.
 - Menyediakan informasi umum penyakit.
-- Mengelola data gejala, data penyakit, dan data relasi diagnosis.
+- Mengelola data gejala dan data penyakit, termasuk relasi gejala yang ditetapkan pada data penyakit.
 
 ### Out Scope
 - Menentukan diagnosis medis sebagai pengganti tenaga kesehatan.
