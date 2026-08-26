@@ -71,7 +71,8 @@ Memungkinkan admin mengelola data penyakit yang digunakan dalam sistem.
 - Menampilkan data penyakit yang tersedia dalam sistem.
 - Menambahkan data penyakit baru.
 - Memperbarui informasi penyakit yang telah tersedia.
-- Menghapus data penyakit yang tidak lagi digunakan.
+- Menetapkan gejala yang terkait dengan data penyakit saat menambah atau memperbarui data penyakit.
+- Menghapus data penyakit yang tidak lagi digunakan. 
 
 **Expected Outcome**  
 Data penyakit yang digunakan sistem tetap tersedia dan terbarui.  
