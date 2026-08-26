@@ -17,7 +17,7 @@ Data Penyakit digunakan sebagai sumber informasi penyakit yang ditampilkan kepad
 
 **System Usage**  
 1. Digunakan untuk menampilkan informasi penyakit pada fitur Informasi Penyakit.
-2. Digunakan untuk menampilkan informasi penyakit berdasarkan hasil analisis gejala pada fiturs Hasil Konsultasi.
+2. Digunakan untuk menampilkan informasi penyakit berdasarkan hasil analisis gejala pada fitur Hasil Konsultasi.
 
 **Data Relationships**  
 Data Penyakit terhubung dengan Data Gejala melalui Data Relasi Diagnosis untuk mendukung proses konsultasi. 
@@ -29,7 +29,7 @@ Data Gejala digunakan sebagai daftar gejala yang tersedia untuk dipilih pengguna
 **Stored Information**  
 - Kode Gejala digunakan sebagai identitas untuk membedakan setiap gejala yang tersimpan dalam sistem.
 - Nama Gejala digunakan untuk menampilkan pilihan gejala yang dapat dipilih oleh pengguna saat melakukan konsultasi.
-- Bobot Gejala digunakan sebagai bagian dari basis pengetahuan diagnosis dalam proses analisis dalam sistem.
+- Bobot Gejala merupakan atribut Data Gejala yang digunakan sistem dalam proses analisis diagnosis.
 
 **System Usage**  
 1. Menampilkan daftar gejala pada fitur Konsultasi Gejala.
