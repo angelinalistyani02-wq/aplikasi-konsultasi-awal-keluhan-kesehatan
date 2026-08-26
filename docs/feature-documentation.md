@@ -50,7 +50,7 @@ Menyediakan informasi umum mengenai penyakit yang tersedia dalam sistem.
 - Menampilkan informasi umum mengenai penyakit yang dipilih.
 
 **Expected Outcome**   
-Pengguna memperoleh informasi umum mengenai penyakit yang dipilih, termasuk deskripsi, gejala, dan penanganan awal.  
+Pengguna memperoleh informasi umum mengenai penyakit yang dipilih, termasuk penjelasan penyakit yang dapat memuat gejala serta informasi penanganan awal.  
 
 ### Diagnosa Ulang  
 
