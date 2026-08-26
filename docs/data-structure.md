@@ -29,7 +29,7 @@ Data Gejala digunakan sebagai daftar gejala yang tersedia untuk dipilih pengguna
 **Stored Information**  
 - Kode Gejala digunakan sebagai identitas untuk membedakan setiap gejala yang tersimpan dalam sistem.
 - Nama Gejala digunakan untuk menampilkan pilihan gejala yang dapat dipilih oleh pengguna saat melakukan konsultasi.
-- Bobot Gejala merupakan atribut Data Gejala yang digunakan sistem dalam proses analisis diagnosis.
+- Bobot Gejala merupakan atribut Data Gejala yang digunakan sistem sebagai nilai masukan dalam perhitungan diagnosis.
 
 **System Usage**  
 1. Menampilkan daftar gejala pada fitur Konsultasi Gejala.
