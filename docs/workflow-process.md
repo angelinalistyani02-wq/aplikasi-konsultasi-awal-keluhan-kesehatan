@@ -23,7 +23,7 @@ Pengguna telah mengakses menu Daftar Penyakit pada aplikasi.
 4. Sistem menampilkan informasi detail penyakit.
 
 **Expected Outcome**  
-Pengguna memperoleh informasi detail mengenai penyakit yang dipilih, termasuk deskripsi penyakit, gejala yang terkait, dan informasi penanganan awal yang tersedia dalam sistem. 
+Sistem menampilkan informasi detail mengenai penyakit yang dipilih kepada pengguna. 
 
 ### Proses Konsultasi Pengguna  
 **Purpose**  
