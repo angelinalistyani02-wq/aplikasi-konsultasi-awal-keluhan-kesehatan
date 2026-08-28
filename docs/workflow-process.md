@@ -16,7 +16,7 @@ Pengguna.
 **Preconditions**  
 Pengguna telah mengakses menu Daftar Penyakit pada aplikasi.  
 
-**Workflow Steps :**  
+**Workflow Steps:**  
 1. Pengguna mengakses menu Daftar Penyakit.
 2. Sistem menampilkan daftar penyakit yang tersedia.
 3. Pengguna memilih salah satu penyakit.
@@ -33,9 +33,9 @@ Membantu pengguna memperoleh informasi awal mengenai kemungkinan kondisi kesehat
 Pengguna. 
 
 **Preconditions**    
-Data gejala dan data penyakit telah tersedia dalam sistem. 
+Data gejala, data penyakit, dan relasi gejala yang terkait telah tersedia dalam sistem. 
 
-**Workflow Steps :**  
+**Workflow Steps:**  
 1. Pengguna mengakses menu konsultasi.
 2. Sistem menampilkan daftar gejala yang tersedia.
 3. Pengguna memilih gejala sesuai dengan kondisi yang dirasakan.
@@ -62,7 +62,7 @@ Administrator.
 **Preconditions**  
 Administrator telah berhasil login ke sistem.
 
-**Workflow Steps :**  
+**Workflow Steps:**  
 1. Administrator mengakses menu Data Penyakit.
 2. Sistem menampilkan data penyakit yang tersedia.
 3. Administrator melakukan pemeliharaan data penyakit sesuai kebutuhan.
@@ -82,7 +82,7 @@ Administrator.
 **Preconditions**  
 Administrator telah berhasil melakukan login ke sistem. 
 
-**Workflow Steps :**  
+**Workflow Steps:**  
 1. Administrator mengakses menu Data Gejala.
 2. Sistem menampilkan data gejala yang tersedia.
 3. Administrator melakukan pemeliharaan data gejala sesuai kebutuhan.
