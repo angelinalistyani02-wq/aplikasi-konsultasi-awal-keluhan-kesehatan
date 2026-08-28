@@ -15,7 +15,7 @@ Identifikasi penyakit dilakukan dengan memanfaatkan hubungan antara Data Gejala 
 Dalam pemanfaatan Basis Pengetahuan, Data Gejala digunakan sebagai dasar untuk menganalisis kecocokan gejala dengan penyakit. Hasil analisis tersebut kemudian digunakan untuk menghasilkan diagnosis. 
 
 ### Output
-Diagnosis mempresentasikan penyakit yang diidentifikasi berdasarkan hasil pemrosesan. Diagnosis tersebut kemudian ditampilkan kepada pengguna.  
+Diagnosis merepresentasikan penyakit yang diidentifikasi berdasarkan hasil pemrosesan. Diagnosis tersebut kemudian ditampilkan kepada pengguna.  
 
 ## Logika Penyajian Informasi Penyakit  
 ### Input   
