@@ -43,7 +43,7 @@ Hasil konsultasi ditampilkan dalam bentuk penjelasan singkat yang dapat membantu
   Admin dapat melakukan pengelolaan data penyakit.
 
 - **Manajemen Data Gejala**  
-  Admin dapat melakukan pengelolaan data gejala berdasarkan data penyakit.
+  Admin dapat melakukan pengelolaan data gejala yang digunakan dalam proses konsultasi.
 
 ## System Workflow
 
