@@ -7,7 +7,7 @@ Sistem membantu melakukan konsultasi awal kondisi kesehatan berdasarkan gejala y
 **User**  
 Pengguna Umum yang mengakses aplikasi untuk melakukan konsultasi awal berdasarkan gejala yang dipilih dan memperoleh informasi awal terkait kondisi kesehatan.  
 
-Responsibilities :  
+Responsibilities:  
 - Melakukan konsultasi berdasarkan gejala yang dipilih.
 - Melihat hasil konsultasi terkait kemungkinan kondisi kesehatan.
 - Mengakses informasi umum terkait penyakit yang tersedia dalam aplikasi.
@@ -15,7 +15,7 @@ Responsibilities :
 **Admin**  
 Dokter atau pakar yang bertanggung jawab mengelola data yang digunakan dalam proses konsultasi awal kesehatan. 
 
-Responsibilities :
+Responsibilities:
 - Mengelola data gejala.
 - Mengelola data penyakit dan informasi penyakit.
 - Memelihara data yang digunakan dalam proses konsultasi.
@@ -28,7 +28,7 @@ Responsibilities :
 - Menyediakan informasi umum penyakit.
 - Mengelola data gejala dan data penyakit, termasuk relasi gejala yang ditetapkan pada data penyakit.
 
-### Out Scope
+### Out of Scope
 - Menentukan diagnosis medis sebagai pengganti tenaga kesehatan.
 - Melakukan konsultasi dengan pengguna secara real-time.
 - Memberikan penanganan medis seperti seorang dokter.
