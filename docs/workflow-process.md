@@ -14,7 +14,7 @@ Menyediakan akses terhadap informasi penyakit yang tersedia dalam sistem sehingg
 Pengguna.  
 
 **Preconditions**  
-Pengguna telah mengakses menu Daftar Penyakit pada aplikasi.  
+Pengguna telah mengakses aplikasi.  
 
 **Workflow Steps:**  
 1. Pengguna mengakses menu Daftar Penyakit.
