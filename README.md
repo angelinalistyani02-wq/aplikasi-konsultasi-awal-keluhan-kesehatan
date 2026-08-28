@@ -6,7 +6,7 @@ Aplikasi Konsultasi Awal Keluhan Kesehatan merupakan sistem informasi berbasis A
 
 Sistem dirancang untuk memberikan informasi awal mengenai kemungkinan kondisi kesehatan pengguna sebelum melakukan konsultasi lebih lanjut dengan tenaga medis.
 
-Aplikasi menggunakan metode Dempster-Shafer untuk menganalisis data gejala dan menghasilkan kemungkinan diagnosis berdasarkan rule dan basis pengetahuan yang telah ditentukan.
+Aplikasi menggunakan metode Dempster-Shafer untuk menganalisis data gejala dan menghasilkan kemungkinan diagnosis berdasarkan aturan dan basis pengetahuan yang telah ditentukan.
 
 ## Business Problem 
 
