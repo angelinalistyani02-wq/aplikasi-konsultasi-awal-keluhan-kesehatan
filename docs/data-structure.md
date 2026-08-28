@@ -1,10 +1,10 @@
 # Data Structure
 
 ## 1. Document Purpose  
-Dokumen ini bertujuan untuk memberikan gambaran mengenai data yang digunakan dalam sistem, fungsi masing - masing data, serta hubungan antar data. 
+Dokumen ini bertujuan untuk memberikan gambaran mengenai data yang digunakan dalam sistem, fungsi masing-masing data, serta hubungan antar data. 
 
 ## 2. Data Structure Overview  
-Sistem ini menggunakan tiga jenis data yaitu Data Penyakit, Data Gejala, dan Data Relasi Diagnosis. Masing - masing data memiliki peran yang berbeda dalam sistem. Data Penyakit digunakan sebagai sumber informasi penyakit yang ditampilkan kepada pengguna, Data Gejala digunakan sebagai input dalam proses konsultasi, sedangkan Data Relasi Diagnosis digunakan untuk menghubungkan Data Gejala dan Data Penyakit dalam proses konsultasi. Ketiga data tersebut saling mendukung proses konsultasi dan penyampaian informasi kepada pengguna. 
+Sistem ini menggunakan tiga jenis data yaitu Data Penyakit, Data Gejala, dan Data Relasi Diagnosis. Masing-masing data memiliki peran yang berbeda dalam sistem. Data Penyakit digunakan sebagai sumber informasi penyakit yang ditampilkan kepada pengguna, Data Gejala digunakan sebagai input dalam proses konsultasi, sedangkan Data Relasi Diagnosis digunakan untuk menghubungkan Data Gejala dan Data Penyakit dalam proses konsultasi. Ketiga data tersebut saling mendukung proses konsultasi dan penyampaian informasi kepada pengguna. 
 
 ## 3. Struktur Data Penyakit  
 **Purpose**  
