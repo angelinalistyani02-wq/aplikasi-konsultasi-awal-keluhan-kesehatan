@@ -13,11 +13,11 @@ Data Penyakit digunakan sebagai sumber informasi penyakit yang ditampilkan kepad
 **Stored Information**  
 - Nama Penyakit digunakan sebagai identitas penyakit yang ditampilkan kepada pengguna.
 - Deskripsi Penyakit digunakan untuk memberikan gambaran umum mengenai penyakit.
-- Penanganan Awal Penyakit digunakan untuk menyediakan informasi penanganan awal yang dapat dipahami pengguna.
+- Penanganan Awal Penyakit digunakan untuk menyediakan informasi penanganan awal kepada pengguna.
 
 **System Usage**  
-1. Digunakan untuk menampilkan informasi penyakit pada fitur Informasi Penyakit.
-2. Digunakan untuk menampilkan informasi penyakit berdasarkan hasil analisis gejala pada fitur Hasil Konsultasi.
+1. Menampilkan nama penyakit hasil diagnosis pada fitur Hasil Konsultasi.
+2. Menampilkan informasi detail penyakit pada fitur Informasi Penyakit.
 
 **Data Relationships**  
 Data Penyakit terhubung dengan Data Gejala melalui Data Relasi Diagnosis untuk mendukung proses konsultasi. 
