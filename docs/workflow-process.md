@@ -54,7 +54,7 @@ Pengguna memperoleh hasil konsultasi berdasarkan gejala yang dipilih.
 
 ### Proses Pemeliharaan Data Penyakit  
 **Purpose**  
-Memastikan informasi penyakit yang digunakan dalam sistem tetap tersedia dan akurat untuk mendukung penyampaian informasi terhadap pengguna.
+Memastikan informasi penyakit yang digunakan dalam sistem tetap tersedia dan terbarui untuk mendukung penyampaian informasi kepada pengguna.
 
 **Actors**  
 Administrator.  
@@ -74,7 +74,7 @@ Data penyakit dalam sistem tetap terpelihara dan dapat digunakan untuk mendukung
 
 ### Proses Pemeliharaan Data Gejala  
 **Purpose**  
-Memastikan informasi gejala yang digunakan dalam proses konsultasi tetap tersedia dan akurat. 
+Memastikan informasi gejala yang digunakan dalam proses konsultasi tetap tersedia dan terbarui. 
 
 **Actors**  
 Administrator.
