@@ -73,6 +73,14 @@ Hasil konsultasi ditampilkan dalam bentuk penjelasan singkat yang dapat membantu
 - **Data Relasi Diagnosis**  
   Menyimpan relasi data gejala dan penyakit sebagai dasar proses analisis menggunakan metode Dempster-Shafer.
 
+## Documentation  
+
+- [System Overview](docs/system-overview.md)
+- [Feature Documentation](docs/feature-documentation.md)
+- [Workflow Process](docs/workflow-process.md)
+- [Data Structure](docs/data-structure.md)
+- [Processing Logic](docs/processing-logic.md)
+
 ## Application Preview
 
 | Halaman Utama | Diagnosa Gejala | Hasil Diagnosis |
