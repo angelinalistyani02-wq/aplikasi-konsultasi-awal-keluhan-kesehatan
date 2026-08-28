@@ -14,8 +14,8 @@ Sistem menerima Data Gejala sebagai masukan proses konsultasi awal. Data Gejala 
 Identifikasi penyakit dilakukan dengan memanfaatkan hubungan antara Data Gejala dan Data Relasi Diagnosis dalam sistem. Data Relasi Diagnosis dalam sistem berperan sebagai Basis Pengetahuan yang menghubungkan gejala dengan penyakit untuk mendukung proses identifikasi. 
 Dalam pemanfaatan Basis Pengetahuan, Data Gejala digunakan sebagai dasar untuk menganalisis kecocokan gejala dengan penyakit. Hasil analisis tersebut kemudian digunakan untuk menghasilkan diagnosis. 
 
-### Data Preparation  
-Diagnosis mempresentasikan penyakit yang diidentifikasi berdasarkan hasil pemrosesan. Selanjutnya, diagnosis tersebut digunakan dalam penyajian kepada pengguna.  
+### Output
+Diagnosis mempresentasikan penyakit yang diidentifikasi berdasarkan hasil pemrosesan. Diagnosis tersebut kemudian ditampilkan kepada pengguna.  
 
 ## Logika Penyajian Informasi Penyakit  
 ### Input   
