@@ -43,7 +43,7 @@ Data gejala, data penyakit, dan relasi gejala yang terkait telah tersedia dalam 
 5. Sistem memproses gejala yang dipilih.
 6. Sistem menampilkan hasil konsultasi pengguna.
 
-**Alternative Flow (Diagnosa Ulang) :**  
+**Alternative Flow (Diagnosa Ulang):**  
 1. Pengguna memilih untuk melakukan diagnosa ulang.
 2. Sistem menghapus gejala yang dipilih sebelumnya.
 3. Pengguna kembali ke tahap pemilihan gejala.
