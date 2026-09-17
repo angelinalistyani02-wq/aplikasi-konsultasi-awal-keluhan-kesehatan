@@ -61,6 +61,9 @@ Memudahkan pengguna untuk memulai kembali proses konsultasi.
 - Mengembalikan proses konsultasi ke kondisi awal.
 - Mengarahkan pengguna kembali ke halaman konsultasi.
 
+**Expected Outcome**   
+Proses konsultasi siap dilakukan kembali.
+
 ## Admin Features  
 ### Kelola Data Penyakit  
 
