@@ -1,67 +1,87 @@
 # Data Structure
 
-## 1. Document Purpose  
-Dokumen ini bertujuan untuk memberikan gambaran mengenai data yang digunakan dalam sistem, fungsi masing-masing data, serta hubungan antar data. 
+## 1. Document Purpose
 
-## 2. Data Structure Overview  
-Sistem ini menggunakan tiga jenis data yaitu Data Penyakit, Data Gejala, dan Data Relasi Diagnosis. Masing-masing data memiliki peran yang berbeda dalam sistem. Data Penyakit digunakan sebagai sumber informasi penyakit yang ditampilkan kepada pengguna, Data Gejala digunakan sebagai input dalam proses konsultasi, sedangkan Data Relasi Diagnosis digunakan untuk menghubungkan Data Gejala dan Data Penyakit dalam proses konsultasi. Ketiga data tersebut saling mendukung proses konsultasi dan penyampaian informasi kepada pengguna. 
+This document provides an overview of the data used in the system, the purpose of each data entity, and the relationships between them.
 
-## 3. Struktur Data Penyakit  
-**Purpose**  
-Data Penyakit digunakan sebagai sumber informasi penyakit yang ditampilkan kepada pengguna. 
+## 2. Data Structure Overview
 
-**Stored Information**  
-- Nama Penyakit digunakan sebagai identitas penyakit yang ditampilkan kepada pengguna.
-- Deskripsi Penyakit digunakan untuk memberikan gambaran umum mengenai penyakit.
-- Penanganan Awal Penyakit digunakan untuk menyediakan informasi penanganan awal kepada pengguna.
+The system uses three types of data: Disease Data, Symptom Data, and Diagnosis Relationship Data. Each serves a different purpose within the system.
 
-**System Usage**  
-1. Menampilkan nama penyakit hasil diagnosis pada fitur Hasil Konsultasi.
-2. Menampilkan informasi detail penyakit pada fitur Informasi Penyakit.
+Disease Data provides disease information displayed to users, Symptom Data serves as input for the consultation process, and Diagnosis Relationship Data connects symptoms and diseases to support the consultation process. Together, these three data entities support the consultation workflow and the presentation of information to users.
 
-**Data Relationships**  
-Data Penyakit terhubung dengan Data Gejala melalui Data Relasi Diagnosis untuk mendukung proses konsultasi. 
+## 3. Disease Data Structure
 
-## 4. Struktur Data Gejala  
-**Purpose**  
-Data Gejala digunakan sebagai daftar gejala yang tersedia untuk dipilih pengguna saat melakukan konsultasi.  
+**Purpose**
 
-**Stored Information**  
-- Kode Gejala digunakan sebagai identitas untuk membedakan setiap gejala yang tersimpan dalam sistem.
-- Nama Gejala digunakan untuk menampilkan pilihan gejala yang dapat dipilih oleh pengguna saat melakukan konsultasi.
-- Bobot Gejala merupakan atribut Data Gejala yang digunakan sistem sebagai nilai masukan dalam perhitungan diagnosis.
+Disease Data serves as the source of disease information displayed to users.
 
-**System Usage**  
-1. Menampilkan daftar gejala pada fitur Konsultasi Gejala.
-2. Menyediakan daftar gejala yang dapat dipilih pengguna dalam proses konsultasi.
+**Stored Information**
 
-**Data Relationships**  
-Data Gejala terhubung dengan Data Penyakit melalui Data Relasi Diagnosis untuk mendukung proses konsultasi. 
+- **Disease Name** identifies the disease displayed to users.
+- **Disease Description** provides a general overview of the disease.
+- **Initial Treatment Information** provides users with information about initial measures that may be taken for the disease.
 
-## 5. Struktur Data Relasi Diagnosis  
-**Purpose**  
-Data Relasi Diagnosis digunakan sebagai basis pengetahuan yang menghubungkan Data Gejala dan Data Penyakit.  
+**System Usage**
 
-**Stored Information**  
-1. Relasi Penyakit digunakan untuk menunjukkan penyakit yang berhubungan dengan gejala tertentu dalam basis pengetahuan diagnosis.
-2. Relasi Gejala digunakan untuk menunjukkan gejala yang berhubungan dengan penyakit tertentu dalam basis pengetahuan diagnosis.
-3. Nilai Belief digunakan sebagai tingkat keyakinan pakar terhadap hubungan antara penyakit dan gejala.
+1. Displays the disease name from the consultation results in the Diagnosis Results feature.
+2. Displays detailed disease information in the Disease Information feature.
 
-**System Usage**  
-1. Menyediakan basis pengetahuan yang digunakan sistem dalam proses konsultasi.
+**Data Relationships**
 
-**Data Relationships**  
-Data Relasi Diagnosis menghubungkan Data Penyakit dengan Data Gejala dalam sistem. 
+Disease Data is connected to Symptom Data through Diagnosis Relationship Data to support the consultation process.
 
-## 6. Gambaran Struktur Data  
-Bagian ini menunjukkan representasi visual yang menunjukkan struktur data utama dalam sistem.
+## 4. Symptom Data Structure
+
+**Purpose**
+
+Symptom Data provides a list of symptoms available for users to select during a consultation.
+
+**Stored Information**
+
+- **Symptom Code** identifies each symptom stored in the system.
+- **Symptom Name** provides the label displayed to users when selecting symptoms during a consultation.
+- **Symptom Weight** is an attribute of Symptom Data used by the system as an input value for diagnosis calculations.
+
+**System Usage**
+
+1. Displays the list of symptoms in the Symptom Consultation feature.
+2. Provides the list of symptoms that users can select during the consultation process.
+
+**Data Relationships**
+
+Symptom Data is connected to Disease Data through Diagnosis Relationship Data to support the consultation process.
+
+## 5. Diagnosis Relationship Data Structure
+
+**Purpose**
+
+Diagnosis Relationship Data serves as the knowledge base that connects Symptom Data and Disease Data.
+
+**Stored Information**
+
+1. **Disease Relationship** identifies the disease associated with a particular symptom within the diagnostic knowledge base.
+2. **Symptom Relationship** identifies the symptoms associated with a particular disease within the diagnostic knowledge base.
+3. **Belief Value** represents the level of expert confidence in the relationship between a disease and a symptom.
+
+**System Usage**
+
+1. Provides the knowledge base used by the system during the consultation process.
+
+**Data Relationships**
+
+Diagnosis Relationship Data connects Disease Data and Symptom Data within the system.
+
+## 6. Data Structure Diagram
+
+This section presents a visual representation of the main data structures used in the system.
 
 <p align="center">
   <img src="/assets/structure-data-diagram.png" width="600">
 </p>
 
 <p align="center">
-  <em>Gambaran Struktur Data</em>
+  <em>Data Structure Overview</em>
 </p>
 
-Diagram di atas menunjukkan struktur data utama dalam sistem. Dalam struktur tersebut, Data Relasi Diagnosis menjadi penghubung antara Data Penyakit dan Data Gejala sehingga membentuk basis pengetahuan yang digunakan oleh sistem. 
+The diagram above illustrates the main data structures used in the system. Diagnosis Relationship Data acts as the link between Disease Data and Symptom Data, forming the knowledge base used by the system.
