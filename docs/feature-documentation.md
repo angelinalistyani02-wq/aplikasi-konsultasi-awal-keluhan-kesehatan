@@ -19,8 +19,7 @@ This document describes the system capabilities available to users and administr
 
 ### Symptom Consultation
 
-**Purpose**
-
+**Purpose**  
 Initiates the preliminary consultation process based on the symptoms selected by the user.
 
 **Main Functions**
@@ -29,14 +28,12 @@ Initiates the preliminary consultation process based on the symptoms selected by
 - Allows users to select the symptoms that match their condition.
 - Proceeds with the consultation process based on the selected symptoms.
 
-**Expected Outcome**
-
+**Expected Outcome**  
 The selected symptoms are ready to be used as the basis for the consultation process.
 
 ### Consultation Results
 
-**Purpose**
-
+**Purpose**  
 Displays the consultation results based on the symptoms selected by the user.
 
 **Main Functions**
@@ -44,14 +41,12 @@ Displays the consultation results based on the symptoms selected by the user.
 - Displays the consultation result in the form of a disease name.
 - Displays the symptoms selected during the consultation process.
 
-**Expected Outcome**
-
+**Expected Outcome**  
 Users gain information about potential health conditions based on their selected symptoms.
 
 ### Disease Information
 
-**Purpose**
-
+**Purpose**  
 Provides general information about diseases available in the system.
 
 **Main Functions**
@@ -60,14 +55,12 @@ Provides general information about diseases available in the system.
 - Allows users to select a disease they want to learn more about.
 - Displays general information about the selected disease.
 
-**Expected Outcome**
-
+**Expected Outcome**  
 Users obtain general information about the selected disease, including a description that may contain related symptoms and initial treatment information.
 
 ### Retake Consultation
 
-**Purpose**
-
+**Purpose**  
 Allows users to restart the consultation process.
 
 **Main Functions**
@@ -75,16 +68,14 @@ Allows users to restart the consultation process.
 - Resets the consultation process to its initial state.
 - Redirects users to the consultation page.
 
-**Expected Outcome**
-
+**Expected Outcome**  
 The consultation process is ready to be performed again.
 
 ## Admin Features
 
 ### Disease Data Management
 
-**Purpose**
-
+**Purpose**  
 Allows administrators to manage the disease data used by the system.
 
 **Main Functions**
@@ -95,14 +86,12 @@ Allows administrators to manage the disease data used by the system.
 - Assigns related symptoms to a disease when adding or updating disease data.
 - Deletes disease records that are no longer used.
 
-**Expected Outcome**
-
+**Expected Outcome**  
 The disease data used by the system remains available and up to date.
 
 ### Symptom Data Management
 
-**Purpose**
-
+**Purpose**  
 Allows administrators to manage the symptom data used by the system.
 
 **Main Functions**
@@ -112,6 +101,5 @@ Allows administrators to manage the symptom data used by the system.
 - Updates existing symptom data.
 - Deletes symptom records that are no longer used.
 
-**Expected Outcome**
-
+**Expected Outcome**  
 The symptom data used by the system remains available and up to date.
