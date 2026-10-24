@@ -12,8 +12,7 @@ Disease Data provides disease information displayed to users, Symptom Data serve
 
 ## 3. Disease Data Structure
 
-**Purpose**
-
+**Purpose**   
 Disease Data serves as the source of disease information displayed to users.
 
 **Stored Information**
@@ -27,14 +26,12 @@ Disease Data serves as the source of disease information displayed to users.
 1. Displays the disease name from the consultation results in the Diagnosis Results feature.
 2. Displays detailed disease information in the Disease Information feature.
 
-**Data Relationships**
-
+**Data Relationships**    
 Disease Data is connected to Symptom Data through Diagnosis Relationship Data to support the consultation process.
 
 ## 4. Symptom Data Structure
 
-**Purpose**
-
+**Purpose**   
 Symptom Data provides a list of symptoms available for users to select during a consultation.
 
 **Stored Information**
@@ -48,14 +45,12 @@ Symptom Data provides a list of symptoms available for users to select during a 
 1. Displays the list of symptoms in the Symptom Consultation feature.
 2. Provides the list of symptoms that users can select during the consultation process.
 
-**Data Relationships**
-
+**Data Relationships**    
 Symptom Data is connected to Disease Data through Diagnosis Relationship Data to support the consultation process.
 
 ## 5. Diagnosis Relationship Data Structure
 
-**Purpose**
-
+**Purpose**    
 Diagnosis Relationship Data serves as the knowledge base that connects Symptom Data and Disease Data.
 
 **Stored Information**
@@ -68,12 +63,10 @@ Diagnosis Relationship Data serves as the knowledge base that connects Symptom D
 
 1. Provides the knowledge base used by the system during the consultation process.
 
-**Data Relationships**
-
+**Data Relationships**   
 Diagnosis Relationship Data connects Disease Data and Symptom Data within the system.
 
-## 6. Data Structure Diagram
-
+## 6. Data Structure Diagram   
 This section presents a visual representation of the main data structures used in the system.
 
 <p align="center">
