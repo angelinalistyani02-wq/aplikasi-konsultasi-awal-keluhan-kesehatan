@@ -6,8 +6,7 @@ The system helps users conduct preliminary health consultations based on their s
 
 ## User Roles
 
-**User**
-
+**User** 
 General users who access the application to conduct preliminary consultations based on their selected symptoms and obtain initial information about potential health conditions.
 
 **Responsibilities:**
@@ -15,8 +14,7 @@ General users who access the application to conduct preliminary consultations ba
 - View consultation results related to potential health conditions.
 - Access general information about diseases available in the application.
 
-**Admin**
-
+**Admin**  
 A doctor or medical expert responsible for managing the data used in the preliminary health consultation process.
 
 **Responsibilities:**
@@ -51,14 +49,11 @@ A doctor or medical expert responsible for managing the data used in the prelimi
 
 ## Main Data Used
 
-### Symptom Data
-
+### Symptom Data 
 Used as the input source for the preliminary consultation process. This data contains the list of symptoms available for users to select.
 
-### Disease Data
-
+### Disease Data 
 Used to provide disease information that helps users understand potential health conditions and relevant initial treatment information.
 
-### Diagnosis Relationship Data
-
+### Diagnosis Relationship Data 
 Contains the relationships between symptom data and disease data used in the analysis process to generate preliminary information about potential health conditions.
