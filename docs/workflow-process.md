@@ -1,93 +1,120 @@
 # Workflow Process
 
-## Document Purpose 
-Dokumen ini bertujuan mendokumentasikan proses operasional utama dalam sistem, sehingga pembaca dapat memahami bagaimana pengguna dan administrator berinteraksi dengan sistem untuk mencapai tujuan tertentu. 
+## Document Purpose
 
-## Process Summary  
-Proses operasional dalam sistem saling berkaitan untuk mendukung penyediaan informasi kesehatan awal kepada pengguna. Proses pemeliharaan data oleh administrator memastikan informasi penyakit dan gejala tetap tersedia dan mutakhir, sedangkan proses yang dilakukan pengguna memanfaatkan data tersebut untuk memperoleh informasi penyakit dan melakukan konsultasi awal berdasarkan gejala yang dipilih.  
+This document describes the main operational processes within the system, helping readers understand how users and administrators interact with the system to achieve specific objectives.
 
-### Proses Penyediaan Informasi Penyakit  
-**Purpose**   
-Menyediakan akses terhadap informasi penyakit yang tersedia dalam sistem sehingga pengguna dapat memperoleh pemahaman awal mengenai kondisi kesehatan tertentu. 
+## Process Summary
 
-**Actors**  
-Pengguna.  
+The operational processes within the system are interconnected to support the delivery of preliminary health information to users. Data maintenance performed by administrators ensures that disease and symptom information remains available and up to date. Meanwhile, user processes utilize this data to access disease information and conduct preliminary consultations based on selected symptoms.
 
-**Preconditions**  
-Pengguna telah mengakses aplikasi.  
+### Disease Information Access Process
 
-**Workflow Steps:**  
-1. Pengguna mengakses menu Daftar Penyakit.
-2. Sistem menampilkan daftar penyakit yang tersedia.
-3. Pengguna memilih salah satu penyakit.
-4. Sistem menampilkan informasi detail penyakit.
+**Purpose**
 
-**Expected Outcome**  
-Sistem menampilkan informasi detail mengenai penyakit yang dipilih kepada pengguna. 
+Provides access to disease information available in the system, allowing users to gain an initial understanding of specific health conditions.
 
-### Proses Konsultasi Pengguna  
-**Purpose**  
-Membantu pengguna memperoleh informasi awal mengenai kemungkinan kondisi kesehatan berdasarkan gejala yang dipilih. 
+**Actors**
 
-**Actors**  
-Pengguna. 
+User.
 
-**Preconditions**    
-Data gejala, data penyakit, dan relasi gejala yang terkait telah tersedia dalam sistem. 
+**Preconditions**
 
-**Workflow Steps:**  
-1. Pengguna mengakses menu konsultasi.
-2. Sistem menampilkan daftar gejala yang tersedia.
-3. Pengguna memilih gejala sesuai dengan kondisi yang dirasakan.
-4. Pengguna mengirimkan pilihan gejala untuk melanjutkan proses konsultasi.
-5. Sistem memproses gejala yang dipilih.
-6. Sistem menampilkan hasil konsultasi pengguna.
+The user has accessed the application.
 
-**Alternative Flow (Diagnosa Ulang):**  
-1. Pengguna memilih untuk melakukan diagnosa ulang.
-2. Sistem menghapus gejala yang dipilih sebelumnya.
-3. Pengguna kembali ke tahap pemilihan gejala.
-4. Proses konsultasi berlangsung kembali dari tahap pemilihan gejala.
+**Workflow Steps:**
 
-**Expected Outcome**  
-Pengguna memperoleh hasil konsultasi berdasarkan gejala yang dipilih. 
+1. The user accesses the Disease List menu.
+2. The system displays the available diseases.
+3. The user selects a disease.
+4. The system displays detailed information about the selected disease.
 
-### Proses Pemeliharaan Data Penyakit  
-**Purpose**  
-Memastikan informasi penyakit yang digunakan dalam sistem tetap tersedia dan terbarui untuk mendukung penyampaian informasi kepada pengguna.
+**Expected Outcome**
 
-**Actors**  
-Administrator.  
+The system displays detailed information about the selected disease to the user.
 
-**Preconditions**  
-Administrator telah berhasil login ke sistem.
+### User Consultation Process
 
-**Workflow Steps:**  
-1. Administrator mengakses menu Data Penyakit.
-2. Sistem menampilkan data penyakit yang tersedia.
-3. Administrator melakukan pemeliharaan data penyakit sesuai kebutuhan.
-4. Sistem menyimpan perubahan data penyakit.
-5. Sistem menampilkan data penyakit yang telah diperbarui.
+**Purpose**
 
-**Expected Outcome**  
-Data penyakit dalam sistem tetap terpelihara dan dapat digunakan untuk mendukung penyampaian informasi kepada pengguna.
+Helps users obtain preliminary information about potential health conditions based on their selected symptoms.
 
-### Proses Pemeliharaan Data Gejala  
-**Purpose**  
-Memastikan informasi gejala yang digunakan dalam proses konsultasi tetap tersedia dan terbarui. 
+**Actors**
 
-**Actors**  
+User.
+
+**Preconditions**
+
+Symptom data, disease data, and the associated symptom relationships are available in the system.
+
+**Workflow Steps:**
+
+1. The user accesses the consultation menu.
+2. The system displays the available symptoms.
+3. The user selects symptoms that match their experienced condition.
+4. The user submits the selected symptoms to proceed with the consultation.
+5. The system processes the selected symptoms.
+6. The system displays the consultation results.
+
+**Alternative Flow (Retake Consultation):**
+
+1. The user chooses to restart the consultation.
+2. The system clears the previously selected symptoms.
+3. The user returns to the symptom selection stage.
+4. The consultation process starts again from the symptom selection stage.
+
+**Expected Outcome**
+
+The user receives consultation results based on the selected symptoms.
+
+### Disease Data Maintenance Process
+
+**Purpose**
+
+Ensures that the disease information used by the system remains available and up to date to support the delivery of information to users.
+
+**Actors**
+
 Administrator.
 
-**Preconditions**  
-Administrator telah berhasil melakukan login ke sistem. 
+**Preconditions**
 
-**Workflow Steps:**  
-1. Administrator mengakses menu Data Gejala.
-2. Sistem menampilkan data gejala yang tersedia.
-3. Administrator melakukan pemeliharaan data gejala sesuai kebutuhan.
-4. Sistem menyimpan perubahan data gejala.
-5. Sistem menampilkan data gejala yang telah diperbarui.
+The administrator has successfully logged in to the system.
 
-**Expected Outcome**  
-Data gejala dalam sistem tetap terpelihara dan dapat digunakan dalam proses konsultasi.  
+**Workflow Steps:**
+
+1. The administrator accesses the Disease Data menu.
+2. The system displays the available disease data.
+3. The administrator maintains the disease data as needed.
+4. The system saves the changes to the disease data.
+5. The system displays the updated disease data.
+
+**Expected Outcome**
+
+Disease data remains properly maintained and available to support the delivery of information to users.
+
+### Symptom Data Maintenance Process
+
+**Purpose**
+
+Ensures that the symptom information used in the consultation process remains available and up to date.
+
+**Actors**
+
+Administrator.
+
+**Preconditions**
+
+The administrator has successfully logged in to the system.
+
+**Workflow Steps:**
+
+1. The administrator accesses the Symptom Data menu.
+2. The system displays the available symptom data.
+3. The administrator maintains the symptom data as needed.
+4. The system saves the changes to the symptom data.
+5. The system displays the updated symptom data.
+
+**Expected Outcome**
+
+Symptom data remains properly maintained and available for use in the consultation process.
