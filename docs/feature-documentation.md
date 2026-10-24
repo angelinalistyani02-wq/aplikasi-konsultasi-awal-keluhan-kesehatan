@@ -1,96 +1,117 @@
 # Feature Documentation
 
-## Document Purpose  
-Dokumen ini menjelaskan kemampuan sistem yang tersedia bagi admin dan pengguna melalui fitur-fitur yang disediakan aplikasi. Dokumentasi ini membantu pembaca memahami fungsi utama setiap fitur dalam mendukung proses konsultasi awal keluhan kesehatan.  
+## Document Purpose
 
-## Feature Summary   
+This document describes the system capabilities available to users and administrators through the features provided by the application. It helps readers understand how each feature supports the initial health symptom consultation process.
 
-|Role | Feature | Description |
+## Feature Summary
+
+| Role | Feature | Description |
 |--------|--------|--------|
-| User | Konsultasi Gejala | Memilih gejala yang dirasakan untuk memulai konsultasi. |
-| User | Hasil Konsultasi | Menampilkan hasil konsultasi berdasarkan gejala yang dipilih. |
-| User | Informasi Penyakit | Menampilkan informasi umum mengenai penyakit yang tersedia dalam sistem. |
-| User | Diagnosa Ulang | Memulai kembali proses konsultasi. |
-| Admin | Kelola Data Penyakit | Mengelola informasi penyakit yang digunakan sistem. |
-| Admin | Kelola Data Gejala | Mengelola data gejala yang digunakan dalam proses konsultasi. |
+| User | Symptom Consultation | Allows users to select the symptoms they experience to initiate a consultation. |
+| User | Consultation Results | Displays consultation results based on the selected symptoms. |
+| User | Disease Information | Displays general information about diseases available in the system. |
+| User | Retake Consultation | Allows users to restart the consultation process. |
+| Admin | Disease Data Management | Allows administrators to manage disease information used by the system. |
+| Admin | Symptom Data Management | Allows administrators to manage symptom data used in the consultation process. |
 
 ## User Features
-### Konsultasi Gejala
 
-**Purpose**  
-Memulai proses konsultasi awal berdasarkan gejala yang dipilih pengguna. 
+### Symptom Consultation
 
-**Main Functions**  
-- Menampilkan daftar gejala yang tersedia untuk memulai konsultasi.
-- Memungkinkan pengguna memilih gejala yang sesuai.
-- Melanjutkan proses konsultasi berdasarkan gejala yang dipilih.
-  
-**Expected Outcome**  
-Gejala yang dipilih siap digunakan sebagai dasar proses konsultasi.
+**Purpose**
 
-### Hasil Konsultasi  
-**Purpose**  
-Menampilkan hasil konsultasi berdasarkan gejala yang telah dipilih pengguna.
+Initiates the preliminary consultation process based on the symptoms selected by the user.
 
-**Main Functions**  
-- Menampilkan hasil konsultasi berupa nama penyakit.
-- Menampilkan gejala yang dipilih selama proses konsultasi.
+**Main Functions**
 
-**Expected Outcome**  
-Pengguna mengetahui kemungkinan kondisi kesehatan berdasarkan gejala yang dipilih. 
+- Displays the list of symptoms available for consultation.
+- Allows users to select the symptoms that match their condition.
+- Proceeds with the consultation process based on the selected symptoms.
 
-### Informasi Penyakit   
+**Expected Outcome**
 
-**Purpose**  
-Menyediakan informasi umum mengenai penyakit yang tersedia dalam sistem.
+The selected symptoms are ready to be used as the basis for the consultation process.
 
-**Main Functions**   
-- Menampilkan daftar penyakit yang tersedia.
-- Memungkinkan pengguna memilih penyakit yang ingin dilihat.
-- Menampilkan informasi umum mengenai penyakit yang dipilih.
+### Consultation Results
 
-**Expected Outcome**   
-Pengguna memperoleh informasi umum mengenai penyakit yang dipilih, termasuk penjelasan penyakit yang dapat memuat gejala serta informasi penanganan awal.  
+**Purpose**
 
-### Diagnosa Ulang  
+Displays the consultation results based on the symptoms selected by the user.
 
-**Purpose**  
-Memudahkan pengguna untuk memulai kembali proses konsultasi.
+**Main Functions**
 
-**Main Functions**  
-- Mengembalikan proses konsultasi ke kondisi awal.
-- Mengarahkan pengguna kembali ke halaman konsultasi.
+- Displays the consultation result in the form of a disease name.
+- Displays the symptoms selected during the consultation process.
 
-**Expected Outcome**   
-Proses konsultasi siap dilakukan kembali.
+**Expected Outcome**
 
-## Admin Features  
-### Kelola Data Penyakit  
+Users gain information about potential health conditions based on their selected symptoms.
 
-**Purpose**  
-Memungkinkan admin mengelola data penyakit yang digunakan dalam sistem.
+### Disease Information
 
-**Main Functions**  
-- Menampilkan data penyakit yang tersedia dalam sistem.
-- Menambahkan data penyakit baru.
-- Memperbarui informasi penyakit yang telah tersedia.
-- Menetapkan gejala yang terkait dengan data penyakit saat menambah atau memperbarui data penyakit.
-- Menghapus data penyakit yang tidak lagi digunakan. 
+**Purpose**
 
-**Expected Outcome**  
-Data penyakit yang digunakan sistem tetap tersedia dan terbarui.  
+Provides general information about diseases available in the system.
 
-### Kelola Data Gejala  
+**Main Functions**
 
-**Purpose**  
-Memungkinkan admin mengelola data gejala yang digunakan dalam sistem. 
+- Displays the list of diseases available in the system.
+- Allows users to select a disease they want to learn more about.
+- Displays general information about the selected disease.
 
-**Main Functions**  
-- Menampilkan data gejala yang tersedia dalam sistem.
-- Menambahkan data gejala baru.
-- Memperbarui data gejala yang telah tersedia.
-- Menghapus data gejala yang tidak lagi digunakan.
+**Expected Outcome**
 
-**Expected Outcome**  
-Data gejala yang digunakan sistem tetap tersedia dan terbarui.
+Users obtain general information about the selected disease, including a description that may contain related symptoms and initial treatment information.
 
+### Retake Consultation
+
+**Purpose**
+
+Allows users to restart the consultation process.
+
+**Main Functions**
+
+- Resets the consultation process to its initial state.
+- Redirects users to the consultation page.
+
+**Expected Outcome**
+
+The consultation process is ready to be performed again.
+
+## Admin Features
+
+### Disease Data Management
+
+**Purpose**
+
+Allows administrators to manage the disease data used by the system.
+
+**Main Functions**
+
+- Displays the disease data available in the system.
+- Adds new disease records.
+- Updates existing disease information.
+- Assigns related symptoms to a disease when adding or updating disease data.
+- Deletes disease records that are no longer used.
+
+**Expected Outcome**
+
+The disease data used by the system remains available and up to date.
+
+### Symptom Data Management
+
+**Purpose**
+
+Allows administrators to manage the symptom data used by the system.
+
+**Main Functions**
+
+- Displays the symptom data available in the system.
+- Adds new symptom records.
+- Updates existing symptom data.
+- Deletes symptom records that are no longer used.
+
+**Expected Outcome**
+
+The symptom data used by the system remains available and up to date.
