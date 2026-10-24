@@ -1,58 +1,58 @@
-# Aplikasi Konsultasi Awal Keluhan Kesehatan
+# Initial Health Symptom Consultation Application
 
 ## Project Overview
 
-Aplikasi Konsultasi Awal Keluhan Kesehatan merupakan sistem informasi berbasis Android yang membantu pengguna melakukan konsultasi awal berdasarkan gejala yang dipilih.
+The Initial Health Symptom Consultation Application is an Android-based information system that helps users conduct preliminary health consultations based on selected symptoms.
 
-Sistem dirancang untuk memberikan informasi awal mengenai kemungkinan kondisi kesehatan pengguna sebelum melakukan konsultasi lebih lanjut dengan tenaga medis.
+The system is designed to provide preliminary information about potential health conditions before users seek further consultation with medical professionals.
 
-Aplikasi menggunakan metode Dempster-Shafer untuk menganalisis data gejala dan menghasilkan kemungkinan diagnosis berdasarkan aturan dan basis pengetahuan yang telah ditentukan.
+The application uses the Dempster-Shafer method to analyze symptom data and generate potential diagnoses based on predefined rules and a knowledge base.
 
-## Business Problem 
+## Business Problem
 
-Pengguna sering mengalami kesulitan memahami kemungkinan kondisi kesehatan berdasarkan gejala yang dirasakan, terutama dalam menentukan langkah konsultasi awal yang perlu dilakukan.
+Users often have difficulty understanding potential health conditions based on the symptoms they experience, particularly when determining the appropriate next steps for an initial consultation.
 
-Selain itu, layanan konsultasi kesehatan tidak selalu mudah diakses oleh beberapa pengguna.
+In addition, access to healthcare consultation services is not always readily available to all users.
 
-Berdasarkan kondisi tersebut, dikembangkan sebuah sistem informasi yang dapat membantu pengguna memperoleh informasi awal terkait kemungkinan kondisi kesehatan berdasarkan gejala yang dipilih.
+To address these challenges, an information system was developed to help users obtain preliminary information about potential health conditions based on their selected symptoms.
 
-## Proposed Solution 
+## Proposed Solution
 
-Sistem dirancang untuk membantu pengguna melakukan konsultasi kesehatan berdasarkan gejala yang dipilih melalui aplikasi berbasis Android.
+The system is designed to help users conduct preliminary health consultations by selecting symptoms through an Android-based application.
 
-Pengguna dapat memilih gejala yang dirasakan, kemudian sistem akan memproses data tersebut menggunakan metode Dempster-Shafer untuk menghasilkan informasi awal terkait kemungkinan kondisi kesehatan pengguna.
+Users can select the symptoms they experience, and the system processes the selected data using the Dempster-Shafer method to generate preliminary information about potential health conditions.
 
-Hasil konsultasi ditampilkan dalam bentuk penjelasan singkat yang dapat membantu pengguna memahami langkah konsultasi selanjutnya.
+The consultation results are presented as a brief explanation to help users understand possible next steps for seeking further medical consultation.
 
 ## Main Features
 
 ### User Features
 
-- **Konsultasi Gejala**  
-  Pengguna dapat memilih gejala yang dirasakan melalui aplikasi konsultasi awal kesehatan.
+- **Symptom Consultation**  
+  Users can select their symptoms through the application to conduct a preliminary health consultation.
 
-- **Hasil Diagnosis**  
-  Pengguna menerima informasi kondisi kesehatan awal dari hasil konsultasi sesuai gejala yang dipilih.
+- **Diagnosis Results**  
+  Users receive preliminary health information based on the selected symptoms and the consultation results.
 
-- **Informasi Penyakit**  
-  Pengguna dapat melihat informasi umum penyakit berdasarkan daftar penyakit yang dipilih.
+- **Disease Information**  
+  Users can view general information about diseases listed in the application.
 
 ### Admin Features
 
-- **Manajemen Data Penyakit**  
-  Admin dapat melakukan pengelolaan data penyakit.
+- **Disease Data Management**  
+  Administrators can manage disease data.
 
-- **Manajemen Data Gejala**  
-  Admin dapat melakukan pengelolaan data gejala yang digunakan dalam proses konsultasi.
+- **Symptom Data Management**  
+  Administrators can manage the symptom data used in the consultation process.
 
 ## System Workflow
 
-1. Pengguna memilih gejala yang dirasakan untuk melakukan konsultasi awal.
-2. Sistem memproses data gejala yang dipilih.
-3. Sistem melakukan perhitungan menggunakan metode Dempster-Shafer.
-4. Sistem menampilkan informasi kemungkinan kondisi kesehatan pengguna.
+1. Users select the symptoms they experience to initiate a preliminary consultation.
+2. The system processes the selected symptom data.
+3. The system performs calculations using the Dempster-Shafer method.
+4. The system displays information about potential health conditions.
 
-## Technology Used 
+## Technology Used
 
 **Development**
 - Android Studio
@@ -62,18 +62,18 @@ Hasil konsultasi ditampilkan dalam bentuk penjelasan singkat yang dapat membantu
 **Method**
 - Dempster-Shafer
 
-## Data Structure 
+## Data Structure
 
-- **Data Penyakit**  
-  Menyimpan daftar penyakit yang digunakan untuk konsultasi.
+- **Disease Data**  
+  Stores the list of diseases used in the consultation process.
 
-- **Data Gejala**  
-  Menyimpan data gejala yang dapat dipilih pengguna saat melakukan konsultasi.
+- **Symptom Data**  
+  Stores the symptoms that users can select during a consultation.
 
-- **Data Relasi Diagnosis**  
-  Menyimpan relasi data gejala dan penyakit sebagai dasar proses analisis menggunakan metode Dempster-Shafer.
+- **Diagnosis Relationship Data**  
+  Stores the relationships between symptoms and diseases as the basis for analysis using the Dempster-Shafer method.
 
-## Documentation  
+## Documentation
 
 - [System Overview](docs/system-overview.md)
 - [Feature Documentation](docs/feature-documentation.md)
@@ -83,6 +83,6 @@ Hasil konsultasi ditampilkan dalam bentuk penjelasan singkat yang dapat membantu
 
 ## Application Preview
 
-| Halaman Utama | Diagnosa Gejala | Hasil Diagnosis |
+| Home Page | Symptom Diagnosis | Diagnosis Results |
 |---------------|-----------------|-----------------|
 | ![](assets/home-page.png) | ![](assets/diagnosis-page.png) | ![](assets/result-page.png) |
