@@ -13,10 +13,10 @@ The operational processes within the system are interconnected to support the de
 **Purpose**
 Provides access to disease information available in the system, allowing users to gain an initial understanding of specific health conditions.
 
-**Actors**
+**Actors**  
 User.
 
-**Preconditions**
+**Preconditions**  
 The user has accessed the application.
 
 **Workflow Steps:**
@@ -25,18 +25,18 @@ The user has accessed the application.
 3. The user selects a disease.
 4. The system displays detailed information about the selected disease.
 
-**Expected Outcome**
+**Expected Outcome**  
 The system displays detailed information about the selected disease to the user.
 
 ### User Consultation Process
 
-**Purpose**
+**Purpose**  
 Helps users obtain preliminary information about potential health conditions based on their selected symptoms.
 
-**Actors**
+**Actors**  
 User.
 
-**Preconditions**
+**Preconditions**  
 Symptom data, disease data, and the associated symptom relationships are available in the system.
 
 **Workflow Steps:**
@@ -53,18 +53,18 @@ Symptom data, disease data, and the associated symptom relationships are availab
 3. The user returns to the symptom selection stage.
 4. The consultation process starts again from the symptom selection stage.
 
-**Expected Outcome**
+**Expected Outcome**  
 The user receives consultation results based on the selected symptoms.
 
 ### Disease Data Maintenance Process
 
-**Purpose**
+**Purpose**  
 Ensures that the disease information used by the system remains available and up to date to support the delivery of information to users.
 
-**Actors**
+**Actors**  
 Administrator.
 
-**Preconditions**
+**Preconditions**  
 The administrator has successfully logged in to the system.
 
 **Workflow Steps:**
@@ -74,18 +74,18 @@ The administrator has successfully logged in to the system.
 4. The system saves the changes to the disease data.
 5. The system displays the updated disease data.
 
-**Expected Outcome**
+**Expected Outcome**  
 Disease data remains properly maintained and available to support the delivery of information to users.
 
 ### Symptom Data Maintenance Process
 
-**Purpose**
+**Purpose**  
 Ensures that the symptom information used in the consultation process remains available and up to date.
 
-**Actors**
+**Actors**  
 Administrator.
 
-**Preconditions**
+**Preconditions**  
 The administrator has successfully logged in to the system.
 
 **Workflow Steps:**
@@ -95,5 +95,5 @@ The administrator has successfully logged in to the system.
 4. The system saves the changes to the symptom data.
 5. The system displays the updated symptom data.
 
-**Expected Outcome**
+**Expected Outcome**   
 Symptom data remains properly maintained and available for use in the consultation process.
