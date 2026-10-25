@@ -80,9 +80,3 @@ The consultation results are presented as a brief explanation to help users unde
 - [Workflow Process](docs/workflow-process.md)
 - [Data Structure](docs/data-structure.md)
 - [Processing Logic](docs/processing-logic.md)
-
-## Application Preview
-
-| Home Page | Symptom Diagnosis | Diagnosis Results |
-|---------------|-----------------|-----------------|
-| ![](assets/home-page.png) | ![](assets/diagnosis-page.png) | ![](assets/result-page.png) |
