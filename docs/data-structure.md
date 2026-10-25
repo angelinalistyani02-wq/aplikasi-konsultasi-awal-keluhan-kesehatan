@@ -70,7 +70,7 @@ Diagnosis Relationship Data connects Disease Data and Symptom Data within the sy
 This section presents a visual representation of the main data structures used in the system.
 
 <p align="center">
-  <img src="/assets/structure-data-diagram.png" width="600">
+  <img src="/assets/data-structure-diagram.png" width="600">
 </p>
 
 <p align="center">
